@@ -2,7 +2,7 @@
 
 The game maps for Lawmaker. Every `<name>.map` file in the `maps/` folder of this repository is shown on the map
 site at `<site>/<name>` (lower-case), so `maps/signyland.map` is at `/signyland`. Replacing a file here
-publishes a new version of that world; the site picks it up within a few minutes.
+publishes a new version of that world; the site shows it on the next page load.
 
 ## Proposing changes
 
