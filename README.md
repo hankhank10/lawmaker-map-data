@@ -1,7 +1,7 @@
 # Lawmaker map data
 
 The game maps for Lawmaker. Every `<Name>.map` file in the root of this repository is shown on the map
-site at `<site>/<name>` (lower-case), so `Signyland.map` is at `/signyland`. Replacing a file here
+site at `<site>/<name>` (lower-case), so `signyland.map` is at `/signyland`. Replacing a file here
 publishes a new version of that world; the site picks it up within a few minutes.
 
 ## Proposing changes
