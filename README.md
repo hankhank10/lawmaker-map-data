@@ -1,0 +1,18 @@
+# Lawmaker map data
+
+The game maps for Lawmaker. Every `<name>.map` file in the `maps/` folder of this repository is shown on the map
+site at `<site>/<name>` (lower-case), so `maps/signyland.map` is at `/signyland`. Replacing a file here
+publishes a new version of that world; the site shows it on the next page load.
+
+## Proposing changes
+
+Open a map on the site with `?propose` (e.g. `/signyland?propose`), make your changes (rename, add,
+move or remove towns; make a town a port; rename countries, provinces and rivers) and press
+**Submit on GitHub**. That opens a pre-filled issue here labelled `proposal`. Each proposal is for one
+map, named in the issue title.
+
+## Notes
+
+- `.map` files are CRLF-delimited and must be stored byte-for-byte; `.gitattributes` marks them as
+  not-text so git never normalises the line endings.
+- The site itself lives in the (private) `lawmaker-map` repository.
