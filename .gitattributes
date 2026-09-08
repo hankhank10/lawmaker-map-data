@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# FMG .map files are CRLF-delimited records (the loader splits on CRLF, and one section contains bare LFs),
+# so they must be stored byte-for-byte
+*.map -text
